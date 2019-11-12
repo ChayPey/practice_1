@@ -81,6 +81,7 @@ namespace practice_1
             return BitConverter.ToInt32(receiveBuffer, 0);
         }
 
+
         private void Working(int number)
         {
             Thread.Sleep(6000);
